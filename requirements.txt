@@ -1,0 +1,7 @@
+streamlit
+langchain
+langchain-groq
+tavily-python
+pdfplumber
+python-dotenv
+tiktoken
