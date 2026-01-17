@@ -1,11 +1,5 @@
-from dotenv import load_dotenv
 import os
-from pathlib import Path
 
-BASE_DIR = Path(__file__).resolve().parent
-ENV_PATH = BASE_DIR / ".env"
-
-load_dotenv(dotenv_path=ENV_PATH, override=True)
 
 import streamlit as st
 from core.pdf_loader import extract_text_from_pdf
